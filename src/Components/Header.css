@@ -1,0 +1,41 @@
+#header {
+	grid-area: header;
+	justify-self: center;
+	align-self: center;
+	width: 100vw;
+	height: 100px;
+	background-color: #DCDCDC;
+	border-bottom: 2px solid #FFC65E;
+}
+
+#searchLabel p {
+	text-align: center;
+	font-size: 26px;
+	display: inline-block;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#searchLabel img {
+	display: inline-block;
+	position: relative;
+	top: 6px;
+	left: -5px;
+}
+
+#searchLabel {
+	height: 50px;
+}
+
+#searchBar {
+	margin-right: 10px;
+}
+
+form {
+	text-align: center;
+}
+
+#penguinLogo {
+	height: 30px;
+	padding-top: 10px;
+}

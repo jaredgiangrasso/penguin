@@ -1,0 +1,18 @@
+.details {
+	grid-area: covers;
+	position: absolute;
+	left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0)
+}
+
+#bookISBN {
+	text-align: center;
+}
+
+p {
+	text-transform: lowercase;
+	text-transform: capitalize;
+	text-align: center;
+}
+	

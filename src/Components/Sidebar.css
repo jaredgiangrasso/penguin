@@ -1,0 +1,6 @@
+#sidebar {
+	grid-area: sidebar;
+	justify-self: center;
+	align-self: start;
+	padding-top: 20px; 
+}

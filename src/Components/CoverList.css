@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700');
+
+body {
+	font-family: Muli, Futura, sans-serif;
+}
+
+.coverDisplay {
+  grid-area: covers;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.book {
+	transition: opacity .5s ease;
+}
+
+.book:hover {
+	opacity: .15;
+	cursor: pointer;
+}
+
+.book:hover ~ .title {
+	opacity: 1;
+	pointer-events: none;
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+	margin-bottom: -50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-size: 19px;
+	opacity: 0;
+	transition: opacity .5s;
+	text-transform: lowercase;
+	text-transform: capitalize;
+	color: black;
+}
+
+.coverTransition {
+	position: absolute;
+	top: 50%;
+	margin-bottom: -50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	transition: top 2s, left 2s;
+}
