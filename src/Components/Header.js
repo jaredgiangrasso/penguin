@@ -16,7 +16,7 @@ export class Header extends Component {
 						</label>
 					</div>
 					<div id="searchBar">
-						<input onChange={this.props.handleChange} type="text" name="searchBar" id="searchBar" size="40"/>
+						<input onChange={this.props.handleChange} type="text" name="searchBar" id="searchBar" size="40" autoComplete="off"/>
 						<button type="submit">Submit</button>
 					</div>
 				</form>

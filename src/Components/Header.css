@@ -4,6 +4,7 @@
 	align-self: center;
 	width: 100vw;
 	height: 100px;
+	max-width: 100%;
 	background-color: #DCDCDC;
 	border-bottom: 2px solid #FFC65E;
 }
