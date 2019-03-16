@@ -32,7 +32,9 @@ export class CoverList extends Component {
 
   render() {
     const { bookList } = this.props;
-
+    {if(!bookList[0]){
+      return(<div id='error'>This page works best in Chrome. If you're seeing this, please switch browsers. If you're already in Chrome, our data's missing - please try again soon!</div>)
+    } else {
     return (
       <div className='coverDisplay'>
         {bookList.map(book => {
@@ -49,6 +51,6 @@ export class CoverList extends Component {
           )}
         })}  
       </div>
-    )
+    )}}
   }
 }
